@@ -12,10 +12,21 @@ struct TrianglePrismView: View {
     //MARK: stored properties
     @State var currentPrism = TriangularPrism(sideA: 50, sideB: 50, sideC: 50, length: 50, height: 50)
     
+    
+    
+    //MARK: view and stacks (input)
+    
     var body: some View {
         VStack {
             
+            Spacer()
+            
             // add an image
+            Image("TriangleBasedPrism")
+                .resizable()
+                .scaledToFit()
+            
+            Spacer()
             
             //hstack for side lengths
             HStack {
@@ -78,7 +89,7 @@ struct TrianglePrismView: View {
                 
             }
             
-            
+            Spacer()
             
             //hstack for length and height
             HStack{
@@ -120,16 +131,26 @@ struct TrianglePrismView: View {
                 }
             }
             
+            Spacer()
             
+            //MARK: the output
             
             //label the differet computed values
             Text("The Base Area is \(currentPrism.baseArea.formatted())")
             
+            Spacer()
+            
             Text("The area of the sides is \(currentPrism.areaOfRectangles.formatted())")
+            
+            Spacer()
             
             Text("The total area is \(currentPrism.totalArea.formatted())")
             
+            Spacer()
+            
             Text("The volume is \(currentPrism.volume.formatted())")
+            
+            Spacer()
            
         }
         .padding()
