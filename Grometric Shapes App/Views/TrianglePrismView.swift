@@ -34,7 +34,9 @@ struct TrianglePrismView: View {
                 //side a vstack
                 VStack {
                     //text view (slider)
-                    Text("Side A")
+                    Text("Side A:")
+                        .fontWeight(.bold)
+
                     
                     //slider control for user input
                     Slider(
@@ -44,7 +46,7 @@ struct TrianglePrismView: View {
                     )
                     
                     //label (slider value)
-                    Text("Length \(currentPrism.sideA.formatted())")
+                    Text("\(currentPrism.sideA.formatted()) units")
                 
                     
                 }
@@ -52,7 +54,9 @@ struct TrianglePrismView: View {
                 //side b vstack
                 VStack{
                     //text view (slider)
-                    Text("Side B")
+                    Text("Side B:")
+                        .fontWeight(.bold)
+
                     
                     //slider control for user input
                     Slider(
@@ -62,7 +66,7 @@ struct TrianglePrismView: View {
                     )
                     
                     //label (slider value)
-                    Text("Length \(currentPrism.sideB.formatted())")
+                    Text("\(currentPrism.sideB.formatted()) units")
                 
                     
                 }
@@ -70,7 +74,9 @@ struct TrianglePrismView: View {
                 //side c vstack
                 VStack{
                     //text view (slider)
-                    Text("Side C")
+                    Text("Side C:")
+                        .fontWeight(.bold)
+
                     
                     //slider control for user input
                     Slider(
@@ -80,7 +86,7 @@ struct TrianglePrismView: View {
                     )
                     
                     //label (slider value)
-                    Text("Length \(currentPrism.sideC.formatted())")
+                    Text("\(currentPrism.sideC.formatted()) units")
                 
                     
                 }
@@ -97,7 +103,9 @@ struct TrianglePrismView: View {
                 //vstack for length
                 VStack{
                     //text view (slider)
-                    Text("Length")
+                    Text("Length:")
+                        .fontWeight(.bold)
+
                     
                     //slider control for user input
                     Slider(
@@ -107,7 +115,7 @@ struct TrianglePrismView: View {
                     )
                     
                     //label (slider value)
-                    Text("Length \(currentPrism.length.formatted())")
+                    Text("\(currentPrism.length.formatted()) units")
                 
                     
                 }
@@ -115,7 +123,9 @@ struct TrianglePrismView: View {
                 //height vstack
                 VStack{
                     //text view (slider)
-                    Text("Height")
+                    Text("Height:")
+                        .fontWeight(.bold)
+
                     
                     //slider control for user input
                     Slider(
@@ -125,7 +135,7 @@ struct TrianglePrismView: View {
                     )
                     
                     //label (slider value)
-                    Text("Length \(currentPrism.height.formatted())")
+                    Text("\(currentPrism.height.formatted()) units")
                 
                     
                 }
@@ -136,21 +146,35 @@ struct TrianglePrismView: View {
             //MARK: the output
             
             //label the differet computed values
-            Text("The Base Area is \(currentPrism.baseArea.formatted())")
-            
-            Spacer()
-            
-            Text("The area of the sides is \(currentPrism.areaOfRectangles.formatted())")
-            
-            Spacer()
-            
-            Text("The total area is \(currentPrism.totalArea.formatted())")
-            
-            Spacer()
-            
-            Text("The volume is \(currentPrism.volume.formatted())")
-            
-            Spacer()
+            VStack {
+                //base area
+                Text("The base area is:")
+                    .fontWeight(.bold)
+                    .padding(.top)
+                        
+                Text("\(currentPrism.baseArea.formatted()) units")
+                    .padding(.bottom)
+                
+                //side area
+                Text("The area of the sides is:")
+                    .fontWeight(.bold)
+                        
+                Text("\(currentPrism.areaOfRectangles.formatted()) units")
+                    .padding(.bottom)
+                
+                //total area
+                Text("The total area is:")
+                    .fontWeight(.bold)
+                        
+                Text("\(currentPrism.totalArea.formatted()) units")
+                    .padding(.bottom)
+                
+                //volume
+                Text("The volume is:")
+                    .fontWeight(.bold)
+                        
+                Text("\(currentPrism.volume.formatted()) units")
+            }
            
         }
         .padding()
