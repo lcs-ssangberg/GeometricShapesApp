@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		494F005E2CCFC441003C7E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494F00452CCFC43D003C7E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494F004C2CCFC43D003C7E23;
+			remoteInfo = "Grometric Shapes App";
+		};
+		494F00682CCFC441003C7E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494F00452CCFC43D003C7E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494F004C2CCFC43D003C7E23;
+			remoteInfo = "Grometric Shapes App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		494F004D2CCFC43D003C7E23 /* Grometric Shapes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grometric Shapes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F005D2CCFC441003C7E23 /* Grometric Shapes AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grometric Shapes AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F00672CCFC441003C7E23 /* Grometric Shapes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grometric Shapes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		494F004F2CCFC43D003C7E23 /* Grometric Shapes App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Grometric Shapes App";
+			sourceTree = "<group>";
+		};
+		494F00602CCFC441003C7E23 /* Grometric Shapes AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Grometric Shapes AppTests";
+			sourceTree = "<group>";
+		};
+		494F006A2CCFC441003C7E23 /* Grometric Shapes AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Grometric Shapes AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494F004A2CCFC43D003C7E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F005A2CCFC441003C7E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F00642CCFC441003C7E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494F00442CCFC43D003C7E23 = {
+			isa = PBXGroup;
+			children = (
+				494F004F2CCFC43D003C7E23 /* Grometric Shapes App */,
+				494F00602CCFC441003C7E23 /* Grometric Shapes AppTests */,
+				494F006A2CCFC441003C7E23 /* Grometric Shapes AppUITests */,
+				494F004E2CCFC43D003C7E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494F004E2CCFC43D003C7E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494F004D2CCFC43D003C7E23 /* Grometric Shapes App.app */,
+				494F005D2CCFC441003C7E23 /* Grometric Shapes AppTests.xctest */,
+				494F00672CCFC441003C7E23 /* Grometric Shapes AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494F004C2CCFC43D003C7E23 /* Grometric Shapes App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494F00712CCFC441003C7E23 /* Build configuration list for PBXNativeTarget "Grometric Shapes App" */;
+			buildPhases = (
+				494F00492CCFC43D003C7E23 /* Sources */,
+				494F004A2CCFC43D003C7E23 /* Frameworks */,
+				494F004B2CCFC43D003C7E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				494F004F2CCFC43D003C7E23 /* Grometric Shapes App */,
+			);
+			name = "Grometric Shapes App";
+			packageProductDependencies = (
+			);
+			productName = "Grometric Shapes App";
+			productReference = 494F004D2CCFC43D003C7E23 /* Grometric Shapes App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		494F005C2CCFC441003C7E23 /* Grometric Shapes AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494F00742CCFC441003C7E23 /* Build configuration list for PBXNativeTarget "Grometric Shapes AppTests" */;
+			buildPhases = (
+				494F00592CCFC441003C7E23 /* Sources */,
+				494F005A2CCFC441003C7E23 /* Frameworks */,
+				494F005B2CCFC441003C7E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494F005F2CCFC441003C7E23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				494F00602CCFC441003C7E23 /* Grometric Shapes AppTests */,
+			);
+			name = "Grometric Shapes AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Grometric Shapes AppTests";
+			productReference = 494F005D2CCFC441003C7E23 /* Grometric Shapes AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		494F00662CCFC441003C7E23 /* Grometric Shapes AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494F00772CCFC441003C7E23 /* Build configuration list for PBXNativeTarget "Grometric Shapes AppUITests" */;
+			buildPhases = (
+				494F00632CCFC441003C7E23 /* Sources */,
+				494F00642CCFC441003C7E23 /* Frameworks */,
+				494F00652CCFC441003C7E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				494F00692CCFC441003C7E23 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				494F006A2CCFC441003C7E23 /* Grometric Shapes AppUITests */,
+			);
+			name = "Grometric Shapes AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Grometric Shapes AppUITests";
+			productReference = 494F00672CCFC441003C7E23 /* Grometric Shapes AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494F00452CCFC43D003C7E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					494F004C2CCFC43D003C7E23 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					494F005C2CCFC441003C7E23 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 494F004C2CCFC43D003C7E23;
+					};
+					494F00662CCFC441003C7E23 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 494F004C2CCFC43D003C7E23;
+					};
+				};
+			};
+			buildConfigurationList = 494F00482CCFC43D003C7E23 /* Build configuration list for PBXProject "Grometric Shapes App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 494F00442CCFC43D003C7E23;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 494F004E2CCFC43D003C7E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494F004C2CCFC43D003C7E23 /* Grometric Shapes App */,
+				494F005C2CCFC441003C7E23 /* Grometric Shapes AppTests */,
+				494F00662CCFC441003C7E23 /* Grometric Shapes AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		494F004B2CCFC43D003C7E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F005B2CCFC441003C7E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F00652CCFC441003C7E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494F00492CCFC43D003C7E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F00592CCFC441003C7E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		494F00632CCFC441003C7E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		494F005F2CCFC441003C7E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494F004C2CCFC43D003C7E23 /* Grometric Shapes App */;
+			targetProxy = 494F005E2CCFC441003C7E23 /* PBXContainerItemProxy */;
+		};
+		494F00692CCFC441003C7E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494F004C2CCFC43D003C7E23 /* Grometric Shapes App */;
+			targetProxy = 494F00682CCFC441003C7E23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		494F006F2CCFC441003C7E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		494F00702CCFC441003C7E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		494F00722CCFC441003C7E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grometric Shapes App/Preview Content\"";
+				DEVELOPMENT_TEAM = QUV23ZTXSX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sangberg.Grometric-Shapes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		494F00732CCFC441003C7E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grometric Shapes App/Preview Content\"";
+				DEVELOPMENT_TEAM = QUV23ZTXSX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sangberg.Grometric-Shapes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		494F00752CCFC441003C7E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUV23ZTXSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sangberg.Grometric-Shapes-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grometric Shapes App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grometric Shapes App";
+			};
+			name = Debug;
+		};
+		494F00762CCFC441003C7E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUV23ZTXSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sangberg.Grometric-Shapes-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grometric Shapes App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grometric Shapes App";
+			};
+			name = Release;
+		};
+		494F00782CCFC441003C7E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUV23ZTXSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sangberg.Grometric-Shapes-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grometric Shapes App";
+			};
+			name = Debug;
+		};
+		494F00792CCFC441003C7E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QUV23ZTXSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sangberg.Grometric-Shapes-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grometric Shapes App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494F00482CCFC43D003C7E23 /* Build configuration list for PBXProject "Grometric Shapes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F006F2CCFC441003C7E23 /* Debug */,
+				494F00702CCFC441003C7E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494F00712CCFC441003C7E23 /* Build configuration list for PBXNativeTarget "Grometric Shapes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F00722CCFC441003C7E23 /* Debug */,
+				494F00732CCFC441003C7E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494F00742CCFC441003C7E23 /* Build configuration list for PBXNativeTarget "Grometric Shapes AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F00752CCFC441003C7E23 /* Debug */,
+				494F00762CCFC441003C7E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494F00772CCFC441003C7E23 /* Build configuration list for PBXNativeTarget "Grometric Shapes AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494F00782CCFC441003C7E23 /* Debug */,
+				494F00792CCFC441003C7E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494F00452CCFC43D003C7E23 /* Project object */;
+}
