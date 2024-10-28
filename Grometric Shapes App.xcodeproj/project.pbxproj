@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		494F00802CCFC4DD003C7E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494F007A2CCFC4DD003C7E23 /* Preview Assets.xcassets */; };
+		494F00812CCFC4DD003C7E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494F007C2CCFC4DD003C7E23 /* Assets.xcassets */; };
+		494F00832CCFC4DD003C7E23 /* Grometric_Shapes_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F007E2CCFC4DD003C7E23 /* Grometric_Shapes_AppApp.swift */; };
+		494F00862CCFC5EF003C7E23 /* TrianglePrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F00852CCFC5EF003C7E23 /* TrianglePrismView.swift */; };
+		494F00892CCFC65C003C7E23 /* TrianglePrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494F00882CCFC65C003C7E23 /* TrianglePrism.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		494F005E2CCFC441003C7E23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +35,14 @@
 		494F004D2CCFC43D003C7E23 /* Grometric Shapes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grometric Shapes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494F005D2CCFC441003C7E23 /* Grometric Shapes AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grometric Shapes AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494F00672CCFC441003C7E23 /* Grometric Shapes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grometric Shapes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494F007A2CCFC4DD003C7E23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		494F007C2CCFC4DD003C7E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494F007E2CCFC4DD003C7E23 /* Grometric_Shapes_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grometric_Shapes_AppApp.swift; sourceTree = "<group>"; };
+		494F00852CCFC5EF003C7E23 /* TrianglePrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglePrismView.swift; sourceTree = "<group>"; };
+		494F00882CCFC65C003C7E23 /* TrianglePrism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglePrism.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		494F004F2CCFC43D003C7E23 /* Grometric Shapes App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Grometric Shapes App";
-			sourceTree = "<group>";
-		};
 		494F00602CCFC441003C7E23 /* Grometric Shapes AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Grometric Shapes AppTests";
@@ -75,7 +83,7 @@
 		494F00442CCFC43D003C7E23 = {
 			isa = PBXGroup;
 			children = (
-				494F004F2CCFC43D003C7E23 /* Grometric Shapes App */,
+				494F007F2CCFC4DD003C7E23 /* Grometric Shapes App */,
 				494F00602CCFC441003C7E23 /* Grometric Shapes AppTests */,
 				494F006A2CCFC441003C7E23 /* Grometric Shapes AppUITests */,
 				494F004E2CCFC43D003C7E23 /* Products */,
@@ -92,6 +100,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		494F007B2CCFC4DD003C7E23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				494F007A2CCFC4DD003C7E23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		494F007F2CCFC4DD003C7E23 /* Grometric Shapes App */ = {
+			isa = PBXGroup;
+			children = (
+				494F007E2CCFC4DD003C7E23 /* Grometric_Shapes_AppApp.swift */,
+				494F00872CCFC643003C7E23 /* Model */,
+				494F00842CCFC5BB003C7E23 /* Views */,
+				494F007B2CCFC4DD003C7E23 /* Preview Content */,
+				494F007C2CCFC4DD003C7E23 /* Assets.xcassets */,
+			);
+			path = "Grometric Shapes App";
+			sourceTree = "<group>";
+		};
+		494F00842CCFC5BB003C7E23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				494F00852CCFC5EF003C7E23 /* TrianglePrismView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		494F00872CCFC643003C7E23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				494F00882CCFC65C003C7E23 /* TrianglePrism.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +150,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				494F004F2CCFC43D003C7E23 /* Grometric Shapes App */,
 			);
 			name = "Grometric Shapes App";
 			packageProductDependencies = (
@@ -212,6 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494F00802CCFC4DD003C7E23 /* Preview Assets.xcassets in Resources */,
+				494F00812CCFC4DD003C7E23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494F00862CCFC5EF003C7E23 /* TrianglePrismView.swift in Sources */,
+				494F00832CCFC4DD003C7E23 /* Grometric_Shapes_AppApp.swift in Sources */,
+				494F00892CCFC65C003C7E23 /* TrianglePrism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
